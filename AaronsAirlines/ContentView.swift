@@ -35,16 +35,19 @@ struct ContentView: View {
             HStack {
                 Spacer()
                 Button("Book A Flight") {
+                    print("Flight Booked.")
                 }
                 .fontWeight(.bold)
 
                 Spacer()
                 Button("Flight Status"){
+                    print("Flight Is On Time.")
                 }
                 .fontWeight(.bold)
 
                 Spacer()
                 Button("Check In"){
+                    print("Checked In.")
                 }
                 .fontWeight(.bold)
 
